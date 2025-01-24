@@ -1,0 +1,12 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  hello: String!
+  privateData: String!
+}
+
+type Mutation {
+  login(token: String!): String!
+}
